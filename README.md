@@ -18,7 +18,6 @@
 
 </div>
 
----
 
 <details>
 
@@ -92,7 +91,7 @@ find . -type f -samefile MY_FILE_HERE 2>/dev/null
 
 find . -type f -exec chmod 644 {} \;
 
----
+
 
 # 1. Remove spaces from file and folder names and then remove numbers from files and folder names
 
@@ -100,7 +99,7 @@ find . -type f -exec chmod 644 {} \;
 
 >Notes: Issue when renaming file without numbers collides with existing file name...
 
-###### code
+#### code
 
 ```sh
 find . -name "* *" -type d | rename 's/ /_/g'   
@@ -125,7 +124,7 @@ for i in *.*; do mv "$i" "${i%-*}.${i##*.}"; done
 >Notes: this includes the contents of the file it's self...
 
 
-###### code:
+#### code:
 
 
 ```js
