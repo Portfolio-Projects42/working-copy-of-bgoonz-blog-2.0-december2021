@@ -1488,17 +1488,17 @@ find . -name *right.html  -type f -exec sed -i 's/target="_parent"//g' {} +
 
 ```
 
----
+
 
 </details>
 
----
+
 
 ---
 
 ![Preview](https://i.imgur.com/nieW1vp.png)
 
----
+
 
 ## Wiki Nav
 
